@@ -17,7 +17,8 @@ client.connect(function (err) {
     }
     else {
         console.log("Conection Established");
-		var qry  = 'create table third_blog_table(id int, title varchar(60), content text)';
+		var qry = 'alter table third_blog_table rename to blogs';
+		// var qry  = 'create table third_blog_table(id int, title varchar(60), content text)';
 					client.query(qry, (err, res) => {
 						if (err) {
 							console.log('err for', err, qry)
