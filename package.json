@@ -1,0 +1,23 @@
+{
+  "name": "migration_script",
+  "version": "1.0.0",
+  "description": "migration script for creating relational schema from other",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon migration.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anxmukul/migration_script.git"
+  },
+  "author": "mukul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anxmukul/migration_script/issues"
+  },
+  "homepage": "https://github.com/anxmukul/migration_script#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  }
+}
